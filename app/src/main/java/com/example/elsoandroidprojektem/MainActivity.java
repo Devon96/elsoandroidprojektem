@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
 
-        Toast.makeText(this, "Megsemmisítve", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Megsemmisítvee", Toast.LENGTH_SHORT).show();
     }
     @Override
     protected void onPause() {
