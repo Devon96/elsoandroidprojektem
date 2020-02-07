@@ -29,14 +29,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="41dp"
                     android:gravity="center_horizontal"
-                    android:text="Első szám"
+                    android:text="@string/elso_szam_txt"
                     android:textColor="#AA0000"
                     android:textSize="30sp"
                     android:textStyle="bold"
                     app:fontFamily="monospace" />
 
                 <EditText
-                    android:id="@+id/editText3"
+                    android:id="@+id/szam"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -47,14 +47,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
-                    android:text="Második Szám"
+                    android:text="@string/masodik_szam_txt"
                     android:textColor="#AA0000"
                     android:textSize="30sp"
                     android:textStyle="bold"
                     app:fontFamily="monospace" />
 
                 <EditText
-                    android:id="@+id/editText4"
+                    android:id="@+id/szam2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -65,6 +65,17 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Button" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="86dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/osszeadas_title"
+                    android:textColor="#AA0000"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    app:fontFamily="monospace" />
             </LinearLayout>
         </ScrollView>
     </RelativeLayout>

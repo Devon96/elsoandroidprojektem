@@ -5,6 +5,6 @@
     <string name="elso_szam_txt">Első szám:</string>
     <string name="masodik_szam_txt">Második szám:</string>
     <string name="osszeadas_btn">Összeadás:</string>
-    <string name="osszeadas_title">Adjunk össze két számot:</string>
+    <string name="osszeadas_title">Adjunk össze két számot!</string>
     <!--Eslő activity összeadás-->
 </resources>
