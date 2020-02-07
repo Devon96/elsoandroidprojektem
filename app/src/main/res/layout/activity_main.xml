@@ -9,7 +9,9 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="10dp">
 
         <ScrollView
             android:layout_width="match_parent"
@@ -19,14 +21,13 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="20"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:splitMotionEvents="false">
 
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="41dp"
-                    android:layout_marginBottom="10"
                     android:gravity="center_horizontal"
                     android:text="Első szám"
                     android:textColor="#AA0000"
@@ -35,21 +36,16 @@
                     app:fontFamily="monospace" />
 
                 <EditText
-                    android:id="@+id/editText"
+                    android:id="@+id/editText3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="10"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                    android:paddingLeft="20"
-                    android:paddingRight="20"
-                    android:text="Name" />
+                    android:inputType="number" />
 
                 <TextView
                     android:id="@+id/textView9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="10"
                     android:gravity="center_horizontal"
                     android:text="Második Szám"
                     android:textColor="#AA0000"
@@ -58,21 +54,16 @@
                     app:fontFamily="monospace" />
 
                 <EditText
-                    android:id="@+id/editText2"
+                    android:id="@+id/editText4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="10"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                    android:paddingLeft="20"
-                    android:paddingRight="20"
-                    android:text="Name" />
+                    android:inputType="number" />
 
                 <Button
                     android:id="@+id/button"
                     android:layout_width="match_parent"
-                    android:layout_height="58dp"
-                    android:layout_marginBottom="10"
+                    android:layout_height="wrap_content"
                     android:text="Button" />
             </LinearLayout>
         </ScrollView>
